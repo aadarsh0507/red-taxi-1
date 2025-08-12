@@ -93,7 +93,7 @@ export function AdminDashboard() {
           <div className="flex items-center space-x-4">
             <Link to="/" className="flex items-center space-x-2">
               <Car className="h-8 w-8 text-[#b11226]" />
-              <span className="font-bold text-xl text-[#4a4a4a]">RedTaxi Admin</span>
+              <span className="font-bold text-xl text-black">RedTaxi Admin</span>
             </Link>
           </div>
           <Button
@@ -112,45 +112,45 @@ export function AdminDashboard() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium text-[#4a4a4a]">Total Bookings</CardTitle>
+              <CardTitle className="text-sm font-medium text-black">Total Bookings</CardTitle>
               <Users className="h-4 w-4 text-[#b11226]" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold text-[#4a4a4a]">1,234</div>
-              <p className="text-xs text-[#4a4a4a]/70">+12% from last month</p>
+              <div className="text-2xl font-bold text-black">1,234</div>
+              <p className="text-xs text-black/70">+12% from last month</p>
             </CardContent>
           </Card>
 
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium text-[#4a4a4a]">Active Rides</CardTitle>
+              <CardTitle className="text-sm font-medium text-black">Active Rides</CardTitle>
               <Car className="h-4 w-4 text-[#b11226]" />
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold text-[#4a4a4a]">47</div>
-              <p className="text-xs text-[#4a4a4a]/70">Currently on the road</p>
+              <div className="text-2xl font-bold text-black">47</div>
+              <p className="text-xs text-black/70">Currently on the road</p>
             </CardContent>
           </Card>
 
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium text-[#4a4a4a]">Revenue Today</CardTitle>
+              <CardTitle className="text-sm font-medium text-black">Revenue Today</CardTitle>
               <div className="h-4 w-4 text-[#b11226]">$</div>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold text-[#4a4a4a]">$2,847</div>
-              <p className="text-xs text-[#4a4a4a]/70">+8% from yesterday</p>
+              <div className="text-2xl font-bold text-black">$2,847</div>
+              <p className="text-xs text-black/70">+8% from yesterday</p>
             </CardContent>
           </Card>
 
           <Card>
             <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-              <CardTitle className="text-sm font-medium text-[#4a4a4a]">Customer Rating</CardTitle>
+              <CardTitle className="text-sm font-medium text-black">Customer Rating</CardTitle>
               <div className="h-4 w-4 text-[#b11226]">⭐</div>
             </CardHeader>
             <CardContent>
-              <div className="text-2xl font-bold text-[#4a4a4a]">4.8</div>
-              <p className="text-xs text-[#4a4a4a]/70">Out of 5 stars</p>
+              <div className="text-2xl font-bold text-black">4.8</div>
+              <p className="text-xs text-black/70">Out of 5 stars</p>
             </CardContent>
           </Card>
         </div>
@@ -159,7 +159,7 @@ export function AdminDashboard() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-8">
           <Card>
             <CardHeader>
-              <CardTitle className="text-lg text-[#4a4a4a]">Recent Bookings</CardTitle>
+              <CardTitle className="text-lg text-black">Recent Bookings</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
@@ -169,16 +169,16 @@ export function AdminDashboard() {
                       <div className="flex items-center space-x-3">
                         <div className="w-2 h-2 rounded-full bg-[#b11226]"></div>
                         <div>
-                          <p className="font-medium text-[#4a4a4a]">{booking.customer}</p>
-                          <p className="text-sm text-[#4a4a4a]/70">
+                          <p className="font-medium text-black">{booking.customer}</p>
+                          <p className="text-sm text-black/70">
                             {booking.pickup} → {booking.dropoff}
                           </p>
                         </div>
                       </div>
                     </div>
                     <div className="text-right">
-                      <p className="text-sm font-medium text-[#4a4a4a]">{booking.fare}</p>
-                      <p className="text-xs text-[#4a4a4a]/70">{booking.time}</p>
+                      <p className="text-sm font-medium text-black">{booking.fare}</p>
+                      <p className="text-xs text-black/70">{booking.time}</p>
                       <span
                         className={`inline-block px-2 py-1 text-xs rounded-full ${
                           booking.status === "active"
@@ -199,7 +199,7 @@ export function AdminDashboard() {
 
           <Card>
             <CardHeader>
-              <CardTitle className="text-lg text-[#4a4a4a]">Customer Messages</CardTitle>
+              <CardTitle className="text-lg text-black">Customer Messages</CardTitle>
             </CardHeader>
             <CardContent>
               <div className="space-y-4">
@@ -207,9 +207,9 @@ export function AdminDashboard() {
                   <div key={message.id} className="p-3 bg-gray-50 rounded-lg">
                     <div className="flex items-start justify-between">
                       <div className="flex-1">
-                        <p className="font-medium text-[#4a4a4a]">{message.customer}</p>
-                        <p className="text-sm text-[#4a4a4a]/70 mt-1">{message.message}</p>
-                        <p className="text-xs text-[#4a4a4a]/50 mt-2">{message.time}</p>
+                        <p className="font-medium text-black">{message.customer}</p>
+                        <p className="text-sm text-black/70 mt-1">{message.message}</p>
+                        <p className="text-xs text-black/50 mt-2">{message.time}</p>
                       </div>
                       <span
                         className={`inline-block px-2 py-1 text-xs rounded-full ${
@@ -231,7 +231,7 @@ export function AdminDashboard() {
         {/* Quick Actions */}
         <Card>
           <CardHeader>
-            <CardTitle className="text-lg text-[#4a4a4a]">Quick Actions</CardTitle>
+                          <CardTitle className="text-lg text-black">Quick Actions</CardTitle>
           </CardHeader>
           <CardContent>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">

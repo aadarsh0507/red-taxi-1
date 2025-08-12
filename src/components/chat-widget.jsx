@@ -99,7 +99,7 @@ export function ChatWidget() {
                 <div key={message.id} className={`flex ${message.sender === "user" ? "justify-end" : "justify-start"}`}>
                   <div
                     className={`max-w-[80%] p-3 rounded-lg ${
-                      message.sender === "user" ? "bg-[#b11226] text-white" : "bg-gray-100 text-[#4a4a4a]"
+                      message.sender === "user" ? "bg-[#b11226] text-white" : "bg-gray-100 text-black"
                     }`}
                   >
                     <div className="flex items-start space-x-2">

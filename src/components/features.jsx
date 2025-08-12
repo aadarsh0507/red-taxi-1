@@ -48,8 +48,8 @@ export function Features() {
     <section className="py-20 bg-[#f0ebe3]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#4a4a4a] mb-6 font-heading">Why Choose RedTaxi?</h2>
-          <p className="text-lg text-[#4a4a4a]/70 max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-black mb-6 font-heading">Why Choose RedTaxi?</h2>
+          <p className="text-lg text-black/70 max-w-2xl mx-auto">
             We're committed to providing the best transportation experience in the city. Here's what makes us different
             from the rest.
           </p>
@@ -79,8 +79,8 @@ export function Features() {
                     <IconComponent className="h-6 w-6 text-[#b11226]" />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-[#4a4a4a] mb-1">{feature.title}</h3>
-                    <p className="text-sm text-[#4a4a4a]/70">{feature.description}</p>
+                    <h3 className="font-semibold text-black mb-1">{feature.title}</h3>
+                    <p className="text-sm text-black/70">{feature.description}</p>
                   </div>
                 </div>
               )
@@ -99,8 +99,8 @@ export function Features() {
                 <div className="flex items-center justify-center w-12 h-12 bg-[#b11226]/10 rounded-lg mb-4">
                   <IconComponent className="h-6 w-6 text-[#b11226]" />
                 </div>
-                <h3 className="font-semibold text-[#4a4a4a] mb-2">{feature.title}</h3>
-                <p className="text-sm text-[#4a4a4a]/70">{feature.description}</p>
+                <h3 className="font-semibold text-black mb-2">{feature.title}</h3>
+                <p className="text-sm text-black/70">{feature.description}</p>
               </div>
             )
           })}

@@ -50,15 +50,15 @@ export function AdminLogin() {
         <div className="text-center mb-8">
           <Link to="/" className="inline-flex items-center space-x-2 mb-4">
             <Car className="h-10 w-10 text-[#b11226]" />
-            <span className="font-bold text-2xl text-[#4a4a4a]">RedTaxi</span>
+            <span className="font-bold text-2xl text-black">RedTaxi</span>
           </Link>
-          <h1 className="text-2xl font-bold text-[#4a4a4a]">Admin Portal</h1>
-          <p className="text-[#4a4a4a]/70">Sign in to access the dashboard</p>
+          <h1 className="text-2xl font-bold text-black">Admin Portal</h1>
+          <p className="text-black/70">Sign in to access the dashboard</p>
         </div>
 
         <Card className="shadow-xl border-0">
           <CardHeader className="space-y-1">
-            <CardTitle className="text-2xl text-center text-[#4a4a4a]">Sign In</CardTitle>
+            <CardTitle className="text-2xl text-center text-black">Sign In</CardTitle>
             <CardDescription className="text-center">
               Enter your credentials to access the admin dashboard
             </CardDescription>
@@ -120,7 +120,7 @@ export function AdminLogin() {
             </form>
 
             <div className="mt-6 text-center">
-              <p className="text-sm text-[#4a4a4a]/70">Demo credentials: admin@redtaxi.com / admin123</p>
+              <p className="text-sm text-black/70">Demo credentials: admin@redtaxi.com / admin123</p>
             </div>
           </CardContent>
         </Card>

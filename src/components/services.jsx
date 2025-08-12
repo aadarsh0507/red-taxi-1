@@ -33,8 +33,8 @@ export function Services() {
     <section className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#4a4a4a] mb-4 font-heading">Our Services</h2>
-          <p className="text-xl text-[#4a4a4a]/70 max-w-2xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-black mb-4 font-heading">Our Services</h2>
+          <p className="text-xl text-black/70 max-w-2xl mx-auto">
             Choose from our range of transportation services designed to meet your needs
           </p>
         </div>
@@ -44,8 +44,8 @@ export function Services() {
             <Card key={index} className="hover:shadow-lg transition-shadow duration-300 border-gray-200">
               <CardHeader className="text-center">
                 <service.icon className="h-12 w-12 text-[#b11226] mx-auto mb-4" />
-                <CardTitle className="text-[#4a4a4a]">{service.title}</CardTitle>
-                <CardDescription className="text-[#4a4a4a]/70">{service.description}</CardDescription>
+                <CardTitle className="text-black">{service.title}</CardTitle>
+                <CardDescription className="text-black/70">{service.description}</CardDescription>
               </CardHeader>
               <CardContent className="text-center">
                 <p className="text-2xl font-bold text-[#b11226]">{service.price}</p>

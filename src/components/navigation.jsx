@@ -12,24 +12,24 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
             <Car className="h-8 w-8 text-[#b11226]" />
-            <span className="font-bold text-xl text-[#4a4a4a]">RedTaxi</span>
+            <span className="font-bold text-xl text-black">RedTaxi</span>
           </Link>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link to="/" className="text-[#4a4a4a] hover:text-[#b11226] transition-colors">
+            <Link to="/" className="text-black hover:text-[#b11226] transition-colors">
               Home
             </Link>
-            <Link to="/about" className="text-[#4a4a4a] hover:text-[#b11226] transition-colors">
+            <Link to="/about" className="text-black hover:text-[#b11226] transition-colors">
               About
             </Link>
-            <Link to="/booking" className="text-[#4a4a4a] hover:text-[#b11226] transition-colors">
+            <Link to="/booking" className="text-black hover:text-[#b11226] transition-colors">
               Book Ride
             </Link>
-            <Link to="/tracking" className="text-[#4a4a4a] hover:text-[#b11226] transition-colors">
+            <Link to="/tracking" className="text-black hover:text-[#b11226] transition-colors">
               Track Taxi
             </Link>
-            <Link to="/contact" className="text-[#4a4a4a] hover:text-[#b11226] transition-colors">
+            <Link to="/contact" className="text-black hover:text-[#b11226] transition-colors">
               Contact
             </Link>
             <Link to="/admin/login">
@@ -54,19 +54,19 @@ export function Navigation() {
         {isOpen && (
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 bg-white border-t">
-              <Link to="/" className="block px-3 py-2 text-[#4a4a4a] hover:text-[#b11226]">
+              <Link to="/" className="block px-3 py-2 text-black hover:text-[#b11226]">
                 Home
               </Link>
-              <Link to="/about" className="block px-3 py-2 text-[#4a4a4a] hover:text-[#b11226]">
+              <Link to="/about" className="block px-3 py-2 text-black hover:text-[#b11226]">
                 About
               </Link>
-              <Link to="/booking" className="block px-3 py-2 text-[#4a4a4a] hover:text-[#b11226]">
+              <Link to="/booking" className="block px-3 py-2 text-black hover:text-[#b11226]">
                 Book Ride
               </Link>
-              <Link to="/tracking" className="block px-3 py-2 text-[#4a4a4a] hover:text-[#b11226]">
+              <Link to="/tracking" className="block px-3 py-2 text-black hover:text-[#b11226]">
                 Track Taxi
               </Link>
-              <Link to="/contact" className="block px-3 py-2 text-[#4a4a4a] hover:text-[#b11226]">
+              <Link to="/contact" className="block px-3 py-2 text-black hover:text-[#b11226]">
                 Contact
               </Link>
               <Link to="/admin/login" className="block px-3 py-2">
