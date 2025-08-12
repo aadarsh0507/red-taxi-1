@@ -4,16 +4,6 @@
 
 [build.environment]
   NODE_VERSION = "18"
-  # Force Vite instead of Next.js
-  NPM_FLAGS = "--legacy-peer-deps"
-
-# Explicitly disable Next.js auto-detection
-[build.processing]
-  skip_processing = false
-
-# Override any auto-detected plugins
-[plugins]
-  # Empty plugins array to override auto-detection
 
 [[redirects]]
   from = "/*"
